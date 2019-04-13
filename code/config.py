@@ -1,7 +1,7 @@
 import logging
-import ptvsd
-ptvsd.enable_attach(address =('0.0.0.0',5678))
-ptvsd.wait_for_attach()
+# import ptvsd
+# ptvsd.enable_attach(address =('0.0.0.0',5678))
+# ptvsd.wait_for_attach()
 
 # This is a minimal configuration to get you started with the Text mode.
 # If you want to connect Errbot to chat services, checkout
@@ -19,5 +19,5 @@ BOT_LOG_LEVEL = logging.DEBUG
 BOT_ADMINS = ('@xiaolong', )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
 
 BOT_IDENTITY = {
-  'token': 'xoxb-480833052976-492872057856-PzFP4VYTN6JIJDOFH1EqTu2D'
+  'token': 'xoxb-480833052976-492872057856-OREgGOVLC3DfElaTP4s9M1QI'
 }
